@@ -49,11 +49,7 @@ const TaskCard = ({ task, onEdit }) => {
 
   return (
     <>
-      {/* <div
-        draggable
-        onDragStart={handleDragStart}
-        className="bg-pink-200 p-3  rounded-xl shadow mb-2 border "
-      > */}
+    
       <div
   draggable
   onDragStart={handleDragStart}

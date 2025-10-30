@@ -16,7 +16,7 @@ export default function App() {
              Let's Start 
           </p>
         </header>
-
+      {/*  Drag -drop component */}
         <main className="max-w-5xl mx-auto bg-white backdrop-blur-sm rounded-2xl shadow-lg p-6">
           <TaskBoard />
         </main>
@@ -29,26 +29,3 @@ export default function App() {
 
 
 
-// Old 
-// import React from 'react'
-
-// import TaskBoard from './components/TaskBoard'
-// import { TaskProvider } from './Context/TaskContext'
-
-
-// export default function App() {
-//   return (
-
-//     <TaskProvider> 
-//       <div className="min-h-screen p-6  ">
-//         <header className="max-w-5xl mx-auto mb-6">
-//           <h1 className="text-3xl font-bold text-center text-gray-600">Todo App </h1>
-//         </header>
-//         <main className="max-w-5xl mx-auto">
-//           <TaskBoard />
-//         </main>
-//       </div>
-//     </TaskProvider>
-
-//   )
-// }
